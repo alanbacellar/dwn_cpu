@@ -11,11 +11,11 @@ Training and inference are implemented in optimized C++ extensions and exposed t
 
 ## Installation
 
-Requirements: PyTorch and a C++17-compatible compiler.
-
 ```bash
 pip install dwn_cpu
 ```
+
+Requirements: PyTorch and a C++17-compatible compiler.
 
 ## Quick Docs
 
