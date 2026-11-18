@@ -16,7 +16,11 @@ Requirements: PyTorch and a C++17-compatible compiler.
 ```bash
 pip install dwn_cpu
 ```
-If you encounter an undefined symbol error when using the package, reinstall it with the following command: ```pip install dwn_cpu --no-cache --no-build-isolation```.
+If you encounter an undefined symbol error when using the package, reinstall it with the added flags: 
+
+```bash
+pip install --force-reinstall --no-cache-dir --no-build-isolation dwn_cpu
+```
 
 ## Quick Docs
 
