@@ -1,0 +1,3 @@
+include README.md
+recursive-include src/dwn_cpu *.cpp
+recursive-include examples *.py
