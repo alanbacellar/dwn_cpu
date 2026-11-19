@@ -1,8 +1,4 @@
-# dwn_cpu: Lightweight CPU Implementation of Differentiable Weightless Neural Networks
-
-`dwn_cpu` is a lightweight C++/PyTorch implementation of Differentiable Weightless Neural Networks (DWN) for small CPU models.
-
-It is intended primarily for the Weightless Neural Networks course at UFRJ and for experiments where the model is small enough that a fused CPU implementation can avoid much of the Python and PyTorch autograd overhead.
+`dwn_cpu` is a lightweight C++/PyTorch implementation of Differentiable Weightless Neural Networks (DWN) for small CPU models. It is intended primarily for the Weightless Neural Networks course at UFRJ and for experiments where the model is small enough that a fused CPU implementation can avoid much of the Python and PyTorch autograd overhead.
 
 Training and inference are implemented in optimized C++ extensions and exposed through two main functions:
 
